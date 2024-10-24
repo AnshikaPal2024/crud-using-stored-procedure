@@ -1,0 +1,63 @@
+<div>
+	<table class="table table-striped" cellspacing="0" cellpadding="4" rules="all" id="gvdata" style="background-color:White;border-color:#CC9966;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+		<tr style="color:#FFFFCC;background-color:#990000;font-weight:bold;">
+			<th scope="col">ID</th><th scope="col">Name</th><th scope="col">Email</th><th scope="col">Password</th><th scope="col">Mobile</th><th scope="col">Gender</th><th scope="col">UserType</th><th scope="col">&nbsp;</th><th scope="col">&nbsp;</th><th scope="col" style="width:150px;">Images</th>
+		</tr><tr style="color:#330099;background-color:LightGrey;height:100px;">
+			<td class="text-center" align="center">14</td><td>
+                                <span id="gvdata_txtName_0">Zainab</span>
+                            </td><td>
+                                <span id="gvdata_txtEmail_0">zainab@gmail.com</span>
+                            </td><td>
+                                <span id="gvdata_txtPassword_0">4oyRwKgSpa/oSRopmsafGA==</span>
+                            </td><td>
+                                <span id="gvdata_txtMobile_0">7412589365</span>
+                            </td><td>
+                                <span id="gvdata_LabelGender_0">Female</span>
+                            </td><td>
+                                <span id="gvdata_LabelUserType_0">Admin</span>
+                            </td><td><input type="button" value="Edit" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Edit$0&#39;)" /></td><td><input type="button" value="Delete" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Delete$0&#39;)" /></td><td style="width:150px;"><img src='https://localhost:44383/Handler1.ashx?id=14' width='100' height='100' style='display:inline-block;vertical-align:middle;' /></td>
+		</tr><tr style="color:#330099;background-color:White;height:100px;">
+			<td class="text-center" align="center">16</td><td>
+                                <span id="gvdata_txtName_1">Raj</span>
+                            </td><td>
+                                <span id="gvdata_txtEmail_1">R@gmail.com</span>
+                            </td><td>
+                                <span id="gvdata_txtPassword_1">FxxQEwOrnyWOnh+5GPf/Gw==</span>
+                            </td><td>
+                                <span id="gvdata_txtMobile_1">0022336655</span>
+                            </td><td>
+                                <span id="gvdata_LabelGender_1">Female</span>
+                            </td><td>
+                                <span id="gvdata_LabelUserType_1">Admin</span>
+                            </td><td><input type="button" value="Edit" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Edit$1&#39;)" /></td><td><input type="button" value="Delete" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Delete$1&#39;)" /></td><td style="width:150px;"><img src='https://localhost:44383/Handler1.ashx?id=16' width='100' height='100' style='display:inline-block;vertical-align:middle;' /></td>
+		</tr><tr style="color:#330099;background-color:LightGrey;height:100px;">
+			<td class="text-center" align="center">21</td><td>
+                                <span id="gvdata_txtName_2">Anshika</span>
+                            </td><td>
+                                <span id="gvdata_txtEmail_2">anshikapal452@gmail.com</span>
+                            </td><td>
+                                <span id="gvdata_txtPassword_2">G8dqF27MD0NyqltdiXZO1A==</span>
+                            </td><td>
+                                <span id="gvdata_txtMobile_2">8530668983</span>
+                            </td><td>
+                                <span id="gvdata_LabelGender_2">Female</span>
+                            </td><td>
+                                <span id="gvdata_LabelUserType_2">Admin</span>
+                            </td><td><input type="button" value="Edit" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Edit$2&#39;)" /></td><td><input type="button" value="Delete" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Delete$2&#39;)" /></td><td style="width:150px;"><img src='https://localhost:44383/Handler1.ashx?id=21' width='100' height='100' style='display:inline-block;vertical-align:middle;' /></td>
+		</tr><tr style="color:#330099;background-color:White;height:100px;">
+			<td class="text-center" align="center">1021</td><td>
+                                <span id="gvdata_txtName_3">Prem</span>
+                            </td><td>
+                                <span id="gvdata_txtEmail_3">Vinay@gmail.com</span>
+                            </td><td>
+                                <span id="gvdata_txtPassword_3">TbC9qSt2x4JNHUDTXDjEwg==</span>
+                            </td><td>
+                                <span id="gvdata_txtMobile_3">8745963214</span>
+                            </td><td>
+                                <span id="gvdata_LabelGender_3">Male</span>
+                            </td><td>
+                                <span id="gvdata_LabelUserType_3">User</span>
+                            </td><td><input type="button" value="Edit" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Edit$3&#39;)" /></td><td><input type="button" value="Delete" onclick="javascript:__doPostBack(&#39;gvdata&#39;,&#39;Delete$3&#39;)" /></td><td style="width:150px;"><img src='https://localhost:44383/Handler1.ashx?id=1021' width='100' height='100' style='display:inline-block;vertical-align:middle;' /></td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,169 @@
+﻿/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    min-height: 100vh; /* Ensure body takes full viewport height */
+    background: white;
+    transition: background 0.5s;
+}
+
+    body.active {
+        background: black;
+    }
+
+/* Toggle button styles */
+#toggle {
+    position: absolute; /* Positioned absolutely to align with the navbar */
+    top: 10px; /* Adjust the top position as needed */
+    right: 15px; /* Adjust the right position as needed */
+    width: 100px; /* Width of the toggle container */
+    height:45px; /* Height of the toggle container */
+    border-radius: 30px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 5px; /* Padding for the toggle container */
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+    #toggle .button {
+        width: 45px; /* Fixed size for the toggle button */
+        height: 45px; /* Fixed size for the toggle button */
+        background: white;
+        transition: left 0.5s, background 0.5s, border-radius 0.5s;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: relative;
+    }
+
+        #toggle .button a,
+        #toggle .button span {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+        }
+
+        #toggle .button a {
+            color: red;
+            text-decoration: none;
+        }
+
+        #toggle .button span {
+            color: red;
+            display: none; /* Hide the span by default */
+        }
+
+    #toggle.active .button {
+        left: calc(100% - 45px); /* Move button to the right edge */
+        background: black;
+        border-radius: 50%;
+    }
+
+        #toggle.active .button a {
+            display: none;
+        }
+
+        #toggle.active .button span {
+            display: flex;
+        }
+
+    /* Adjusting text sizes in span */
+    #toggle .button span h6 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+/* Navbar styling */
+.navbar {
+    background-color: darkslategrey;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+    .navbar-nav .nav-link:hover {
+        background-color: dodgerblue;
+        border-radius: 5px;
+    }
+
+/* Card styling */
+.card {
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+    .card:hover {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        transform: scale(1.02);
+    }
+
+/* Form control and button styling */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.form-check-input:checked ~ .form-check-label {
+    color: #007bff;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* Text and header styling */
+.text-primary {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+    .text-primary:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+.header-text {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+    .header-text:hover {
+        color: #0056b3;
+    }
+
+/* Container styling for centering content */
+.container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
